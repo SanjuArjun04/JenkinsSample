@@ -1,0 +1,59 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4972607900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I want to write a step with precondition",
+            "match": {
+              "location": "StepDefinition.i_want_to_write_a_step_with_precondition()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 81800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I complete action",
+            "match": {
+              "location": "StepDefinition.i_complete_action()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I validate the outcomes",
+            "match": {
+              "location": "StepDefinition.i_validate_the_outcomes()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]
